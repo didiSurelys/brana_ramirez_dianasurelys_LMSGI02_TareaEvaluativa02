@@ -1,0 +1,218 @@
+/*
+Enlace de autoevaluación: https://drive.google.com/file/d/1eQtUT-xskKMunm3HglnNGg6ivPpRaKP5/view?usp=share_link
+Enlace de alojamiento web: https://github.com/didiSurelys/brana_ramirez_dianasurelys_LMSGI02_TareaEvaluativa02.git
+URL:  https://didisurelys.github.io/brana_ramirez_dianasurelys_LMSGI02_TareaEvaluativa02/
+Autor: Diana Surelys Braña Ramirez
+Asignatura: LMGSI
+Unidad: UD 2
+Tarea: Tarea Evaluativa 2 - Sitio Web
+*/
+
+@import 'normalize.css';
+@import 'index-estilos.css';
+@import 'recetario-estilos.css';
+@import 'decoracion-estilos.css';
+@import 'noticias-estilos.css';
+@import 'contacto-estilos.css';
+
+body {
+    
+    font-family: 'Quicksand', sans-serif;
+    color: #333;
+
+}
+
+body a {
+
+    color: #333;
+
+}
+
+/*Encabezado de la página web*/
+
+.caja-cabecera {
+
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid rgb(169, 222, 254);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    z-index: 1;
+
+}
+
+.caja-cabecera img {
+
+    width: 6rem;
+    height: 4rem;
+
+}
+
+.caja-cabecera nav {
+
+    width: 50%;
+    padding-right: 2.5rem;
+
+}
+
+.caja-navegacion ul {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+
+}
+
+.caja-navegacion a {
+
+    text-decoration: none;
+    padding: 1rem;
+
+}
+
+.caja-navegacion a:hover {
+
+    background-color: rgb(154, 185, 243);
+    color: white;
+}
+
+/*Cuerpo de página*/
+
+main {
+
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+    line-height: 2.5rem;
+
+}
+
+.negrita {
+
+    font-weight: bolder;
+
+}
+
+.cursiva-centrado {
+
+    font-size: 2rem;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 0 0 0.5rem cornflowerblue, 0 0 0.5rem white;
+
+}
+
+.estilo-encabezado-main {
+
+    width: 100%;
+    color: rgb(189, 14, 14);
+    text-align: center;
+
+}
+
+/*Botón para volver al inicio de página*/
+
+.caja-boton-inicio a {
+
+    position: fixed;
+    top: 25rem;
+    right: 1.5rem;
+    padding: 1rem;
+    z-index: 3;
+    border-radius: 5rem;
+    border: 1px #333 solid;
+    background-color: rgb(189, 210, 248);
+    text-decoration: none;
+    color:#333;
+    
+}
+
+.caja-boton-inicio a:hover {
+
+    background-color: cornflowerblue;
+    color: aliceblue;
+
+}
+
+/*Pie de página*/
+
+footer {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    bottom:0;
+    left: 0;
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: rgb(222, 232, 251);
+    
+}
+
+footer section {
+
+    width: 23rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+}
+
+footer aside img {
+
+    width: 3rem;
+    margin: 1rem;
+    opacity: 0.7;
+}
+
+footer aside img:hover {
+
+    opacity: 1;
+    width: 4rem;
+   
+}
+
+.caja-enlace-footer  {
+
+    width: 4rem;
+    padding: 1rem;
+    text-decoration: none;
+    background-color:  #fff;
+    color: #333;
+}
+
+.caja-enlace-footer:hover {
+    
+    background-color: rgb(154, 185, 243);
+    color: white;
+}
+
+footer address a {
+
+    color: #333;
+    text-decoration: none;
+    line-height: 2rem;
+    
+}
+
+footer address a:hover {
+
+    color: rgb(189, 14, 14);
+
+}
+
+
+

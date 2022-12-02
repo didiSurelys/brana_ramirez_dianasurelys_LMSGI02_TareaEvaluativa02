@@ -1,0 +1,108 @@
+/*
+Enlace de autoevaluación: https://drive.google.com/file/d/1eQtUT-xskKMunm3HglnNGg6ivPpRaKP5/view?usp=share_link
+Enlace de alojamiento web: https://github.com/didiSurelys/brana_ramirez_dianasurelys_LMSGI02_TareaEvaluativa02.git
+URL:  https://didisurelys.github.io/brana_ramirez_dianasurelys_LMSGI02_TareaEvaluativa02/
+Autor: Diana Surelys Braña Ramirez
+Asignatura: LMGSI
+Unidad: UD 2
+Tarea: Tarea Evaluativa 2 - Sitio Web
+*/
+
+/*Cuerpo de página*/
+
+#caja-contenido-recetario {
+
+    margin: 6rem 10rem;
+    line-height: 2rem;
+    list-style-position: outside;
+    
+}
+
+/*Índice de página*/
+
+.caja-navegacion-indice {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 3rem 0;
+    background-color: rgb(143, 182, 254);
+    border-radius: 4rem;
+    
+}
+
+.caja-navegacion-indice section {
+
+    width: 32rem;
+    height: 14rem;
+    
+    
+}
+
+.caja-navegacion-indice h2 {
+    
+    width: 100%;
+    text-align: center;
+    color: white;
+    
+}
+
+.caja-navegacion-indice h3 {
+
+    text-align: center;
+
+}
+
+.caja-navegacion-indice h3:hover {
+
+    color:rgb(189, 14, 14);
+
+}
+
+.caja-navegacion-indice a {
+
+    text-decoration: none;
+    list-style: circle;
+    line-height: 2rem;
+    color:#333;
+
+}
+
+.caja-navegacion-indice section a:hover {
+
+    color:aliceblue;
+
+}
+
+/*Sección de cada categoría de recetas*/
+
+#caja-contenido-recetario > section {
+
+    padding-top: 5rem;
+
+}
+
+.caja-recetas {
+
+    padding-top: 5rem;
+    
+}
+
+.caja-recetas img {
+
+    float: left;
+    margin-right: 2rem;
+    width: 50rem;
+    border: 10px rgb(165, 194, 249) solid;
+    border-radius: 5rem;
+
+}
+
+dt { 
+
+    font-weight: bolder;
+
+}

@@ -1,0 +1,60 @@
+/*
+Enlace de autoevaluación: https://drive.google.com/file/d/1eQtUT-xskKMunm3HglnNGg6ivPpRaKP5/view?usp=share_link
+Enlace de alojamiento web: https://github.com/didiSurelys/brana_ramirez_dianasurelys_LMSGI02_TareaEvaluativa02.git
+URL:  https://didisurelys.github.io/brana_ramirez_dianasurelys_LMSGI02_TareaEvaluativa02/
+Autor: Diana Surelys Braña Ramirez
+Asignatura: LMGSI
+Unidad: UD 2
+Tarea: Tarea Evaluativa 2 - Sitio Web
+*/
+
+/*Cuerpo de la página web*/
+
+#caja-contenido-decoracion {
+
+    padding-top: 3rem;
+    margin: 10rem 5rem;
+    line-height: 2rem;
+    
+}
+
+.caja-decoracion {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    
+}
+
+.caja-decoracion article {
+
+    width: 20rem;
+    height: 22rem;
+    margin: 1rem;
+    border: 1px cornflowerblue solid;
+    line-height: 1.5rem;
+
+}
+
+.caja-decoracion img {
+
+    width: 100%;
+    height: 65%;
+    margin-bottom: 1rem;
+
+}
+
+.caja-decoracion a {
+
+    text-decoration:none;
+
+}
+
+.caja-decoracion a:hover{
+
+    color: cornflowerblue;
+
+}

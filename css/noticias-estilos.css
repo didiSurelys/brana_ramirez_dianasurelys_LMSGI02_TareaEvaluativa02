@@ -1,0 +1,115 @@
+/*
+Enlace de autoevaluación: https://drive.google.com/file/d/1eQtUT-xskKMunm3HglnNGg6ivPpRaKP5/view?usp=share_link
+Enlace de alojamiento web: https://github.com/didiSurelys/brana_ramirez_dianasurelys_LMSGI02_TareaEvaluativa02.git
+URL:  https://didisurelys.github.io/brana_ramirez_dianasurelys_LMSGI02_TareaEvaluativa02/
+Autor: Diana Surelys Braña Ramirez
+Asignatura: LMGSI
+Unidad: UD 2
+Tarea: Tarea Evaluativa 2 - Sitio Web
+*/
+
+/*Cuerpo de la página web*/
+
+#caja-contenido-noticias {
+
+    padding-top: 3rem;
+    margin: 10rem 5rem;
+
+}
+
+/*Sección de lo más leído*/
+
+.caja-enlaces-noticias {
+    
+    position: absolute;
+    top: 14rem;
+    right: 4.5rem;
+    width: 25rem;
+    padding: 1rem;
+    background-color: white;
+    border: solid 2px rgb(169, 222, 254);
+    border-radius: 2rem;
+    
+}
+
+.caja-enlaces-noticias li {
+    
+    list-style-image: url("../img/flecha.jpg");
+    line-height: 2rem;
+
+}
+
+.caja-enlaces-noticias a {
+
+    color: #333;
+    text-decoration: none;
+
+}
+
+.caja-enlaces-noticias a:hover {
+
+    color:rgb(21, 139, 243);
+
+}
+
+/*Sección noticias*/
+
+.caja-listado-noticias {
+
+    width: 80rem;
+    text-align: center;
+}
+
+.caja-listado-noticias article:nth-child(even) {
+
+    background-color: rgb(175, 232, 252);
+
+}
+
+.caja-listado-noticias article:nth-child(odd) {
+
+    background-color: rgb(252, 232, 252);
+}
+
+.caja-listado-noticias h2 {
+
+    width: 65rem;
+    
+}
+
+.caja-noticias {
+    
+    padding: 5rem;
+    line-height: 2rem;
+    
+}
+
+.caja-noticias img {
+
+    width: 30rem;
+    height: 20rem;
+    border-radius: 3rem;
+    
+}
+
+.caja-noticias a {
+
+    width: 4rem;
+    padding: 1rem;
+    text-decoration: none;
+    background-color:  #fff;
+    color: #333;
+
+}
+
+.caja-noticias:nth-child(even) a:hover {
+
+    background-color: rgb(252, 232, 252);
+
+}
+
+.caja-noticias:nth-child(odd) a:hover {
+    
+    background-color: rgb(175, 232, 252);
+
+}
